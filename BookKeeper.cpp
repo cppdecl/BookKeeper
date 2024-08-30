@@ -45,6 +45,9 @@ class Book
    public:
 	Book()
 	{
+		m_Title	 = "Untitled Book";
+		m_Year	 = "0000";
+		m_Author = "None";
 	}
 
 	Book(int bookID) : m_BookID(bookID)
